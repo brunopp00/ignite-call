@@ -42,7 +42,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       username,
     },
   })
-  console.log(user)
   if (!user) {
     return {
       notFound: true,
